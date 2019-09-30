@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+  <meta charset="UTF-8">
+  <title>BSM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Roboto, sans-serif;
+      background-color: #F1F5F7;
+    }
+
+    h1 {
+      margin: 80px 0 80px 0;
+
+      font-size: 290px;
+      color: rgba(0, 154, 225, 0.5);
+      opacity: 0.4;
+      text-align: center;
+    }
+
+    div.container {
+      width: 900px;
+      margin: 0 auto;
+
+      display: flex;
+
+      color: #494B4D;
+    }
+
+    div.container > img {
+      margin: 0 50px 0 0;
+    }
+
+    div.message {
+      display: flex;
+      flex-direction: column;
+    }
+
+    div.message > h2 {
+      margin: 0 0 10px 0;
+
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 48px;
+    }
+
+    div.message > p {
+      margin: 0;
+
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 36px;
+    }
+
+    div.message > a {
+      margin-top: 33px;
+
+      width: 240px;
+      height: 50px;
+
+      font-size: 16px;
+      line-height: 50px;
+      color: #009AE1;
+      text-decoration: none;
+      text-align: center;
+
+      border: 1px solid #009AE1;
+      border-radius: 25px;
+    }
+
+    div.message > a:hover {
+      background-color: #009AE1;
+      color: white;
+    }
+
+    @media (max-width: 900px) {
+      h1 {
+        margin: 40px 0 40px 0;
+
+        font-size: 200px;
+      }
+
+      div.container {
+        width: auto;
+        margin: 0 auto;
+
+        flex-direction: column;
+        align-items: center;
+
+        color: #494B4D;
+      }
+
+      div.container > img {
+        margin: 0 10px 20px 10px;
+      }
+
+      div.message > a {
+        align-self: center;
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>404</h1>
+<div class="container">
+  <img src="../static/travolta.gif" alt="Траволта" width="426">
+  <div class="message">
+    <h2>О нет!</h2>
+    <p>Мы везде посмотрели, но, похоже,<br>не можем найти то, что вы ищете :(</p>
+    <a href="#" class="btn-home">Вернуться на главную</a>
+  </div>
+</div>
+</body>
+</html>

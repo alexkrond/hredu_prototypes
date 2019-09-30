@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+  <meta charset="UTF-8">
+  <title>BSM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index.css">
+  <script src="../js/search_events.js" defer></script>
+</head>
+<body>
+<main>
+  <header>
+    <nav>
+      <a href="#">Список мероприятий</a>
+      <a href="#">Отчёты</a>
+      <a href="#">Отделы</a>
+      <a id="settings" href="#">Справочная информация</a>
+      <a href="#">Выход</a>
+    </nav>
+  </header>
+  <div class="show-department">Подразделение HR: все отделы</div>
+  <input class="search-list-event" type="search" name="input-search" placeholder="Поиск..">
+  <ul class="list-events">
+    <li class="nothing-found"><h1>Ничего не найдено</h1></li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Собрание</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Длинное название мероприятия (прям может очень длинное)</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Митап</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Длинное название мероприятия (прям может очень длинное)</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Проверка как работает поиск</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Тест раз раз</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Длинное название мероприятия (прям может очень длинное)</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Длинное название мероприятия (прям может очень длинное)</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Тут тоже проверка</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="event-info">
+        <li>09.08.2019 - 11.08.2019</li>
+        <li>Организатор</li>
+        <li>Длинное название мероприятия (прям может очень длинное)</li>
+        <li>Название отдела</li>
+        <li>Оплачено</li>
+        <li>Договор: на согласовании</li>
+        <li>Счета: не требуются</li>
+      </ul>
+    </li>
+  </ul>
+  <button class="btn-add-event">Добавить мероприятие</button>
+  <div class="filter-list-events">Фильтры</div>
+  <div class="budget">
+    <div class="budget-container">
+      <h2>Бюджет на месяц</h2>
+      <p>Выбранное подразделение</p>
+      <ul>
+        <li>
+          Выделено всего:<span class="allotted">100 000</span> р.<br><hr>
+        </li>
+        <li>
+          Потрачено:<span class="allotted">60 000</span> р.<br><hr>
+        </li>
+        <li>
+          Зарезервировано:<span class="allotted">10 000</span> р.<br><hr>
+        </li>
+        <li>
+          Свободно:<span class="allotted">30 000</span> р.<hr>
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+</body>
+</html>
